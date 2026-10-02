@@ -17,8 +17,6 @@ export default function Hero() {
         >
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 text-indigo-600 text-xs font-semibold uppercase tracking-wider w-fit">
             <Sparkles size={14} />
-            <br />
-            <br />
             Available for new projects
           </div>
 

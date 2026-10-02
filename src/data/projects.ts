@@ -24,8 +24,8 @@ export const projects: Project[] = [
     image: 'ecom.png',
     description: 'A complete overhaul of a fashion brand\'s online store with a focus on mobile conversion and performance.',
     tags: ['React', 'Next.js', 'Tailwind', 'Stripe'],
-    github: 'https://github.com',
-    live: 'https://example.com',
+    github: '#',
+    live: '#',
     caseStudy: {
       overview: 'The client needed a modern, fast, and highly converting e-commerce platform to replace their aging legacy system. The goal was to reduce bounce rates and increase the average order value.',
       challenge: 'The existing site was slow, not mobile-friendly, and had a complicated checkout process that led to high cart abandonment.',

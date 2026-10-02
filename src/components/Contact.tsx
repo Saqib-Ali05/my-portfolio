@@ -32,14 +32,16 @@ export default function Contact() {
 
             <div className="flex gap-4">
               {[
-                { icon: <Twitter size={20} />, href: '#' },
-                { icon: <Linkedin size={20} />, href: '#' },
-                { icon: <Github size={20} />, href: '#' },
-                { icon: <Instagram size={20} />, href: '#' },
+                { icon: <Twitter size={20} />, href: 'https://twitter.com' },
+                { icon: <Linkedin size={20} />, href: 'https://www.linkedin.com/in/saqib-ali-518902393?utm_source=share_via&utm_content=profile&utm_medium=member_android' },
+                { icon: <Github size={20} />, href: 'https://github.com/Saqib-Ali05' },
+                { icon: <Instagram size={20} />, href: 'https://www.instagram.com/saqibali0867/' },
               ].map((social, i) => (
                 <motion.a
                   key={i}
                   href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ y: -3 }}
                   className="p-3 rounded-xl bg-white border border-slate-100 shadow-sm text-slate-400 hover:text-indigo-600 transition-colors"
                 >
